@@ -14,13 +14,15 @@ Regression model을 학습한다는 것은 하나의 가설을 세울 필요가 
         
     거리를 통해 비교하여 좋은 것을 찾는다. (거리가 가까울 수록 좋은 것)
 
-Cost(= Loss) function 
+#####  1.3 Cost(= Loss) function 
 > 우리가 세운 가설과 실제 데이터가 얼마나 다른가를 나타내는 것
 
 <strong>주로 차이의 제곱을 해준다.</strong> 
 
 m: 데이터 갯수 
+
 ![costfunction](img/costfunction.png)
 
 
-minimize cost(W,b): W, b가 최소가 되는 것
+##### 1.4 minimize cost(W,b) 
+> W, b가 최소가 되는 것
