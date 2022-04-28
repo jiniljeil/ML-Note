@@ -3,27 +3,27 @@
 
 Regression model을 학습한다는 것은 하나의 가설을 세울 필요가 있다. 
 
-1. Linear regression
-    1.1 (Linear) Hypothesis
+### 1. Linear regression
+    
+1.1 (Linear) Hypothesis
         
-        Ex) H(x) = Wx + b
+    Ex) H(x) = Wx + b
 
-    1.2 Hypothesis
-        <p>Which hypothesis is better? </p>
+1.2 Hypothesis
+    <p>Which hypothesis is better? </p>
         
-        거리를 통해 비교하여 좋은 것을 찾는다. (거리가 가까울 수록 좋은 것)
+    거리를 통해 비교하여 좋은 것을 찾는다. (거리가 가까울 수록 좋은 것)
 
+Cost(= Loss) function 
+> 우리가 세운 가설과 실제 데이터가 얼마나 다른가를 나타내는 것
 
-    #### Cost(Loss) function 
-    > 우리가 세운 가설과 실제 데이터가 얼마나 다른가를 나타내는 것
+<strong>주로 차이의 제곱을 해준다.</strong> 
 
-    <strong>주로 차이의 제곱을 해준다.</strong> 
-
-    > $$ (H(x) - y)^2 $$
+> $$ (H(x) - y)^2 $$
 
     
-    m: 데이터 갯수
-    > $$ 
-    cost = 1/m \sum_{i=1}^m (H(x_i) - y_i)^2 $$
+m: 데이터 갯수
+> $$ 
+cost = 1/m \sum_{i=1}^m (H(x_i) - y_i)^2 $$
 
-    minimize cost(W,b): W, b가 최소가 되는 것
+minimize cost(W,b): W, b가 최소가 되는 것
