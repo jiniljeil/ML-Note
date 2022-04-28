@@ -19,11 +19,8 @@ Cost(= Loss) function
 
 <strong>주로 차이의 제곱을 해준다.</strong> 
 
-> $$ (H(x) - y)^2 $$
+m: 데이터 갯수 
+![costfunction](img/costfunction.png)
 
-    
-m: 데이터 갯수
-> $$ 
-cost = 1/m \sum_{i=1}^m (H(x_i) - y_i)^2 $$
 
 minimize cost(W,b): W, b가 최소가 되는 것
