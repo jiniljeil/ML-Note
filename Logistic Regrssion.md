@@ -53,7 +53,7 @@ cost function을 y가 0일 때와 1일 때를 구분하여 그림을 그려보�
 ## Multinomial classification 
 2개 이상의 종류를 가질 때, 아래와 같이 각각 W, b 값을 가지고 Sigmoid function을 거쳐 0 ~ 1 사이의 값으로 값을 예측 값이 나오게 됩니다. 
 
-![mutlnomial_classification](img/mutlnomial_classification.png) 
+<img src="img/mutlnomial_classification.png" style="width: 550px">
 
 예를 들어, 위와 같이 3개의 종류가 존재한다면 x1, x2, x3가 공통으로 가지기 때문에 3 X 3 Matrix를 형성할 수 있게 됩니다. 그리하여, 3 X 3과 3 X 1 행렬이 Matrix multiplication 과정을 거치면 3 X 1 행렬이 나오게 되며 Sigmoid function을 거치면 각각 0 ~ 1 사이의 값을 얻을 수 있게 됩니다. 
 
