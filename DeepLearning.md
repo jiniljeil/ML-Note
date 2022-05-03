@@ -4,7 +4,7 @@
 ### Activation Functions
 > cell body에서 합한 값이 어떤 일정 값을 넘어가면 그 다음으로 값을 보내주고, 즉 1이라는 신호를 주고, 이 값이 어떤 값보다 작으면 0이라는 신호를 주어 동작하는 것
 
-<img src="img/activation_functions.png">
+<img src="img/activation_functions.png" style="width:500px;">
 
 ### Backpropagation 
 > 1974, 1982년 Paul Werbos에 의해 만들어진 방식으로 <strong>예측한 결과에 대한 에러 값을 구해 뒤로 전달해 나아가면서 각각의 W, b 값들을 조정하는 방법</strong>
@@ -12,7 +12,8 @@
 Networks이 연결되어 있으며 각각이 W, b 값을 가지게 되고, 이 값으로 주어진 입력에 대한 출력을 만들 수 있게 되는데 만일 예측이 틀릴 경우 W, b 값을 조정해줘야 한다. 
 
 이때, backpropgation 방식을 활용하여 더 복잡한 예측이 가능해지게 되었던 것이다. 
-<img src="img/Backpropagation.png">
+
+<img src="img/Backpropagation.png" style="width:500px;">
 
 ### Neural Networks 
 
@@ -20,8 +21,9 @@ Networks이 연결되어 있으며 각각이 W, b 값을 가지게 되고, 이 �
 
 <img src="img/convolutional_nn.png" style="width: 400px; height: 300px;"/>
 
-위 아이디어를 기반으로, 일부를 잘라서 다음 Layer에 보내고, 나중에 이러한 조각조각들을 합치는 방식으로 아래와 같은 모델을 개발하였다. 
-<img src="img/nn.png">
+위 아이디어를 기반으로, 일부를 잘라서 다음 Layer에 보내고, 나중에 이러한 조각조각들을 합치는 방식으로 아래와 같은 모델을 개발하였다.  
+   
+<img src="img/nn.png" style="width:500px;">
 
 ### Big problem
 
