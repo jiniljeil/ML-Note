@@ -18,10 +18,10 @@ model1의 경우에는 classification을 진행할 때, (-) 그룹에 (+) 요소
 #### Regularization 
 > weight에 너무 큰 값들을 가지지 않도록 하기 위한 방법 
 
-![regularization](img/regularization.png)
+<img src="img/regularization.png" style="width: 550px">
 
 Cost function을 펴주기 위해 <strong>lamda(regularation strength) * 각각의 element를 제곱한 값의 합</strong>을 기존 Loss function에 더해준다. 
 
-![regularization_2](img/regularization_2.png)
+<img src="img/regularization_2.png" style="width: 550px">
 
 <strong>regularation strength 값이 커지면 regularation의 중요도가 높음을 의미</strong>

@@ -24,7 +24,8 @@ Logistic Regression은 0 또는 1로 예측 값을 설정해주어야 합니다.
 하지만, Hypothesis는 1보다 큰 값 혹은 0보다 작은 값이 나올 수 있습니다.  
 <strong>그러므로, Logistic Hypothesis가 0 ~ 1 사이의 값이 나오게 하기 위해  sigmoid function 를 사용합니다. </strong> 
 
-![sigmoid](img/sigmoid.png) 
+![sigmoid](img/sigmoid.png)   
+
 이미지 출처: https://t1.daumcdn.net/cfile/tistory/275BAD4F577B669920
 
 Logistic Hypothesis를 아래와 같이 설정해주었다고 가정해봅시다. 
@@ -32,8 +33,8 @@ Logistic Hypothesis를 아래와 같이 설정해주었다고 가정해봅시다
 ![logistic_hypothesis](img/logistic_hypothesis.png)
 
 ### Cost function
-
-![cost_function](img/cost_function.png)
+  
+<img src="img/cost_function.png" style="width: 550px">
 
 <strong>Cost function에 Logistic Hypothesis를 적용해보면, 오른쪽 그림과 같이 극솟값이 여러 개가 존재하게 되어 Global minimum을 찾기 어렵기에 제대로 된 예측을 하기 어렵습니다. </strong> 
 
@@ -41,7 +42,7 @@ Logistic Hypothesis를 아래와 같이 설정해주었다고 가정해봅시다
 
 ![logistic_cost_function](img/logistic_cost_function.png) 
 
-cost function을 y과 0일 때와 1일 때를 구분하여 그림을 그려보면, convex function과 유사한 형태를 띄는 것을 확인할 수 있을 것 입니다. 
+cost function을 y가 0일 때와 1일 때를 구분하여 그림을 그려보면, convex function과 유사한 형태를 띄는 것을 확인할 수 있을 것 입니다. 
 
 1. y = 1 일 때, H(x) = 1 -> cost = 0, H(x) = 0 -> cost = 무한대
 2. y = 0 일 때, H(x) = 0 -> cost = 0, H(x) = 1 -> cost = 무한대
@@ -65,9 +66,9 @@ cost function을 y과 0일 때와 1일 때를 구분하여 그림을 그려보�
 ### One-hot encoding 
 > 가장 높은 값을 가진 요소만 1로 만들어주고 그 외 다른 요소들은 모두 0으로 만들어주는 인코딩 방식
 
-![softmax_one_hot](img/softmax_one_hot.png)
+<img src="img/softmax_one_hot.png" style="width: 550px">
 
 위 그림을 보면, Matrix multiplication을 거쳐 나온 Y(예측) 값을 Softmax function을 거쳐 0 ~ 1 사이의 값이며 합이 1인 형태로 만들어 준 후, one-hot encoding 방식을 사용하므로써 하나를 결정하게 되는 것이다. 
 
 ### Logistic cost vs Cross-entropy
-![cross-entropy](img/cross_entropy.png)
+<img src="img/cross_entropy.png" style="width: 600px">

@@ -8,8 +8,7 @@ Learning rate가 너무 클 경우, 이동하는 폭이 너무 커서 극솟값�
 <strong>현상</strong>
 즉, 예측을 제대로 할 수 없게 되며 큰 값으로 가다가 튕겨나가게 되어 Cost 값 출력 시 숫자가 아닌 값을 출력하게 된다. 
 
-![large_learning_rate](img/large_learning_rate.png)
-
+<img src="img/large_learning_rate.png" style="width: 550px">
 
 ### Small learning rate 
 Learning rate를 너무 작게 할 경우, 이동하는 폭이 너무 짧아 극솟값 지점에 도달하지 못할 수 있다. 
@@ -17,7 +16,7 @@ Learning rate를 너무 작게 할 경우, 이동하는 폭이 너무 짧아 극
 <strong>현상</strong>
 Training 시, Cost 값이 거의 변경되지 않고 특정 값에 계속해서 머무르는 것을 볼 수 있다. 
 
-![small_learning_rate](img/small_learning_rate.png)
+<img src="img/small_learning_rate.png" style="width: 550px">
 
 ### how to set learning rate
 - Observe the cost function 
