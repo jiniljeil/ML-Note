@@ -29,7 +29,7 @@ model.add(Dense(3, input_shape=(4,)))
 model.add(Activation('softmax'))
 
 model.summary() 
-
+ 
 model.compile(loss='categorical_crossentropy', 
               optimizer='sgd',
               metrics=['accuracy']) 
