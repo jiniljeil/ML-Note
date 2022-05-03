@@ -1,4 +1,4 @@
-## Logistic Regresssoin 
+## Logistic Regression 
 > 회귀 분석(Logistic regression)은 입력 변수가 주어진 이산형 결과의 확률을 모형화하는 과정입니다. 가장 일반적인 로지스틱 회귀 분석에서는 True/False, Yes/No 등의 두 가지 값을 취할 수 있는 이항 결과를 모형화합니다.
 
 ### Classification
@@ -67,7 +67,7 @@ cost function을 y과 0일 때와 1일 때를 구분하여 그림을 그려보�
 
 ![softmax_one_hot](img/softmax_one_hot.png)
 
-위 그림을 보면, Matrix multiplication을 거쳐 나온 Y(예측) 값을 Softmax function을 거쳐 0 ~ 1 사이의 값이며 합이 1인 형태로 만들어 준 후, one-hot encoding 방식을 사용하므로써 하나를 결정하게 되는 것입니다. 
+위 그림을 보면, Matrix multiplication을 거쳐 나온 Y(예측) 값을 Softmax function을 거쳐 0 ~ 1 사이의 값이며 합이 1인 형태로 만들어 준 후, one-hot encoding 방식을 사용하므로써 하나를 결정하게 되는 것이다. 
 
 ### Logistic cost vs Cross-entropy
 ![cross-entropy](img/cross_entropy.png)
