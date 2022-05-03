@@ -1,4 +1,4 @@
-## Dataset 
+# Dataset 
 > 학습 또는 테스트를 진행하기 위한 데이터들의 집합
 
 ML/DL에서 사용되는 Dataset은 크게 Testing dataset과 Testing dataset으로 구분할 수 있다. 

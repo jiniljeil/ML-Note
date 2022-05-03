@@ -1,4 +1,4 @@
-## Overfitting
+# Overfitting
 > Training dataset에만 최적화되어, Test dataset 적용 시 제대로 동작하지 않는 문제 
 
 
@@ -10,12 +10,12 @@ model1의 경우에는 classification을 진행할 때, (-) 그룹에 (+) 요소
 
 이러한 현상을 <strong>Overfitting</strong> 이라고 한다.
 
-### Solution 
+## Solution 
 - More training data 
 - Reduce the number of features 
 - Regularization 
 
-#### Regularization 
+### Regularization 
 > weight에 너무 큰 값들을 가지지 않도록 하기 위한 방법 
 
 <img src="img/regularization.png" style="width: 550px">

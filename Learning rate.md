@@ -1,7 +1,7 @@
-## Learning rate 
+# Learning rate 
 > Cost function에 특정 점에서 기울기 값을 얼마나 조정할 것 인지를 결정하는 요소
 
-### Large learning rate: Overshooting
+## Large learning rate: Overshooting
 
 Learning rate가 너무 클 경우, 이동하는 폭이 너무 커서 극솟값을 찾지 못할 수도 있다. 
 
@@ -10,7 +10,7 @@ Learning rate가 너무 클 경우, 이동하는 폭이 너무 커서 극솟값�
 
 <img src="img/large_learning_rate.png" style="width: 550px">
 
-### Small learning rate 
+## Small learning rate 
 Learning rate를 너무 작게 할 경우, 이동하는 폭이 너무 짧아 극솟값 지점에 도달하지 못할 수 있다. 
 
 <strong>현상</strong>
@@ -18,7 +18,7 @@ Training 시, Cost 값이 거의 변경되지 않고 특정 값에 계속해서 
 
 <img src="img/small_learning_rate.png" style="width: 550px">
 
-### how to set learning rate
+## how to set learning rate
 - Observe the cost function 
 - Check it goes down in a reasonable rate
     기본 값으로는 <strong>0.01</strong>을 사용한다. 
