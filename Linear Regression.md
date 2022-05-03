@@ -5,16 +5,15 @@ Regression model을 학습한다는 것은 하나의 가설을 세울 필요가 
 
 ### 1. Linear regression
     
-1.1 (Linear) Hypothesis
+#### 1.1 (Linear) Hypothesis
         
     Ex) H(x) = Wx + b
 
-1.2 Hypothesis
-    <p>Which hypothesis is better? </p>
+- Which hypothesis is better?
         
     거리를 통해 비교하여 좋은 것을 찾는다. (거리가 가까울 수록 좋은 것)
 
-####  1.3 Cost(= Loss) function 
+####  1.2 Cost(= Loss) function 
 > 우리가 세운 가설과 실제 데이터가 얼마나 다른가를 나타내는 것
 
 <strong>주로 차이의 제곱을 해준다.</strong> 
@@ -25,7 +24,7 @@ W와 b를 조정하여 가장 작은 값을 가지도록 하는 것이 학습이
 ![costfunction](img/costfunction.png)
 
 
-#### 1.4 minimize cost(W,b) 
+#### 1.3 minimize cost(W,b) 
 > W, b가 최소가 되는 값을 찾는 과정을 학습이라한다. 
 
 ##### Gradient descent algorithm
