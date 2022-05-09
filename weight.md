@@ -8,7 +8,8 @@
 이후, 복잡한 Restricted Boltzmann Machine을 굳이 사용하지 않고도 좋은 성능을 낼 수 있다는 사실을 알게됨. 
 
 ## Restricted Boltzmann Machine (RBM)
-![rbm](img/rbm.png)
+<img src="img/rbm.png" style="width: 550px">
+
 > 두 Layer 간에 Forward, Backword 과정을 거쳐 입력을 재생산하여 그 전 값과 새로 생산된 입력 값의 차이가 최소가 되도록 weight을 조절하는 방식
 
 - Forward - weight와 bias 값을 곱하여 출력 값 지정하여 activation 여부 결정
@@ -63,4 +64,5 @@
   ```
 
 ### Activation functions and initialization on CIFAR-10 
-![weight_method](img/weight_method.png)
+<img src="img/weight_method.png" style="width: 550px">
+
