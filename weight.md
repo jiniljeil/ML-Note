@@ -25,7 +25,8 @@
   - Makes sure the weights are 'just right', not too small, not too big
   - Using number of input (fan_in) and output (fan_out) 
       
-          
+  ###
+  
   ```Python 
   # Xavier initialization
   # Glorot et al. 2010 
